@@ -12,10 +12,10 @@ frontend/dist-ssr
 frontend/*.local
 
 backend/node_modules
+backend/.env
 
 admin/node_modules
-
-backend/.env
+admin/.env
 
 .vscode/*
 !.vscode/extensions.json
