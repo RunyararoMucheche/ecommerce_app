@@ -45,7 +45,7 @@ const Add = ({ token }) => {
 
       console.log(response.data);
       if (response.data.success) {
-        toast.success(response.data.messages);
+        toast.success(response.data.message);
         setName("");
         setDescription("");
         setImage1(false);
@@ -54,7 +54,7 @@ const Add = ({ token }) => {
         setImage4(false);
         setPrice("");
       } else {
-        toast.error(response.data.messages);
+        toast.error(response.data.message);
       }
     } catch (error) {
       console.log(error);
