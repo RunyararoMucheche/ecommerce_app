@@ -41,6 +41,26 @@ This app showcases a straightforward yet robust e-commerce platform featuring pr
 
 _(Modify to reflect your actual tech stack.)_
 
+## Project Structure
+
+ecommerce_app/
+├── backend/
+│ ├── controllers/
+│ ├── models/
+│ ├── routes/
+│ ├── middleware/
+│ ├── config/
+│ ├── server.js
+│ └── .env.example
+└── frontend/
+├── src/
+│ ├── components/
+│ ├── pages/
+│ ├── redux/ (or context/)
+│ ├── services/
+│ └── App.js
+└── public/
+
 ## Getting Started
 
 ### Prerequisites
